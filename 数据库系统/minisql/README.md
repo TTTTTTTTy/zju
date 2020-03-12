@@ -4,7 +4,7 @@
 
 ## 测试
 
-testfile 文件中包含8个sql文件，test1-7包含一些简单的sql语句，主要测试minisql的细节是否有误；
+test文件夹中包含8个sql文件，test1-7包含一些简单的sql语句，主要测试minisql的细节是否有误；
 
 employee.sql包含10000多条语句，验证minisql在这样的数据量下是否会崩溃，结果是虽然插入较慢，但是并没有报错或者闪退
 
