@@ -187,19 +187,7 @@ Successfully create table t1 .
 
 ```sql
 Input:
-execfile test1.sql;
+quit;
 
 Output:
-create table t1
-(
-id int ,
-name char(20) unique,
-age int ,
-salary float,
-primary key(id)
-);
-
-Create index of id in tablet1 successfully
-
-Successfully create table t1 .
 ```
